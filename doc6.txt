@@ -1,0 +1,43 @@
+Nouvelle artificial intelligence AI approach artificial intelligence pioneered Rodney Brooks part MIT artificial intelligence laboratory
+Nouvelle AI differs classical AI aiming produce robots intelligence levels similar insects
+Researchers believe intelligence emerge organically simple behaviors intelligences interacted real world instead using constructed worlds symbolic AIs typically needed programmed
+Motivation The differences nouvelle AI symbolic AI apparent early robots Shakey Freddy
+These robots contained internal model representation micro worlds consisting symbolic descriptions
+As result structure symbols renewed robot moved world changed
+Shakey planning programs assessed program structure broke necessary steps complete desired action
+This level computation required large amount time process Shakey typically performed tasks slowly
+Symbolic AI researchers long plagued problem updating searching otherwise manipulating symbolic worlds inside AIs
+A nouvelle system refers continuously sensors rather internal model world
+It processes external world information needs senses required
+As Brooks puts world best model always exactly date complete every detail
+A central idea nouvelle AI simple behaviors combine form complex behaviors time
+For example simple behaviors include elements like move forward avoid obstacles
+A robot using nouvelle AI simple behaviors like collision avoidance moving toward moving object could possibly come together produce complex behavior like chasing moving object
+The frame problem The frame problem describes issue using first order logic FOL express facts robot world
+Representing state robot traditional FOL requires use many axioms symbolic language imply things environment change arbitrarily
+Nouvelle AI seeks sidestep frame problem dispensing filling AI robot volumes symbolic language instead letting complex behaviors emerge combining simpler behavioral elements
+Embodiment The goal traditional AI build intelligences without bodies would able interact world via keyboard screen printer
+However nouvelle AI attempts build embodied intelligence situated real world
+Brooks quotes approvingly brief sketches Turing gave situated approach
+Turing wrote equipping machine best sense organs money buy teaching understand speak English process would follow normal teaching child
+This approach contrasted others focused abstract activities playing chess
+Brooks robots Insectoid robots Brooks focused building robots acted like simple insects simultaneously working remove traditional AI characteristics
+He created insect like robots called Allen Herbert
+Brooks insectoid robots contained internal models world
+Herbert example discarded high volume information received sensors never stored information two seconds
+Allen Allen named Allen Newell ring twelve ultrasonic sonars primary sensors three independent behavior producing modules
+These modules programmed avoid stationary moving objects
+With module activated Allen stayed middle room object approached ran away avoiding obstacles way
+Herbert Herbert named Herbert A Simon used infrared sensors avoid obstacles laser system collect D data distance feet
+Herbert also carried number simple sensors hand
+The robot testing ground real world environment busy offices workspaces MIT AI lab searched empty soda cans carried away seemingly goal oriented activity emerged result simple behavior units combining together
+Other insectoid robots Other robots Brooks team Genghis Squirt
+Genghis six legs able walk rough terrain follow human
+Squirt behavior modules stay dark corners heard noise would begin follow source noise
+Brooks agreed level nouvelle AI come near complexity real insect raised question whether insect level behavior reasonable goal nouvelle AI
+Humanoid robots Brooks recent work taken opposite direction proposed Von Neumann quotations theorists select human nervous system model unrealistically picking complicated object sun little advantage selecting instead ant since nervous system exhibits exceptional complexity
+Cog In Brooks decided pursue goal human level intelligence Lynn Andrea Stein built humanoid robot called Cog
+Cog robot extensive collection sensors face arms among features allow interact world gather information experience assemble intelligence organically manner described Turing
+The team believes Cog able learn able find correlation sensory information receives actions
+In long term team wants Cog able learn common sense knowledge
+See also BEAM robotics Behavior based robotics Cognitive science Intelligence Reactive planning Scruffy AI References External links What AI Nouvelle AI Nouvelle AI Reactive planning nouvelle AI AI new foundations EnCYClopædia Britannica

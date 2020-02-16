@@ -1,7 +1,7 @@
 from article_ingestion import get_pages_for_category, write_corpus
 from fasttext_utils import get_model, get_similarity_matrix, pp_matrix
 import random
-from logging import getLogger, INFO, StreamHandler, basicConfig
+from logging import getLogger, INFO, StreamHandler, basicConfig, FileHandler
 import sys
 import os
 import xlsxwriter
@@ -12,9 +12,10 @@ basicConfig(
     level=INFO,
     format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s: %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
-    handlers=[StreamHandler(sys.stdout)]
+    handlers=[StreamHandler(sys.stdout),
+              FileHandler('upz_zavrsni.log')]
 )
-logger = getLogger('upz_zavrsni')
+logger = getLogger()
 
 
 TRAIN_CORPUS = 'train_corpus.txt'
@@ -25,7 +26,7 @@ WORKBOOK_PATH = 'similarity_matrix.xlsx'
 
 if not all([os.path.isfile(path) for path in ([TRAIN_CORPUS] + TEST_CORPUSES)]):
     logger.info(f"Setting up training pages...")
-    pages_train = get_pages_for_category('Artificial intelligence', pages_to_fetch=1000)
+    pages_train = get_pages_for_category('Artificial intelligence', pages_to_fetch=500)
     random.shuffle(pages_train)
 
     logger.info(f"Setting up testing pages...")

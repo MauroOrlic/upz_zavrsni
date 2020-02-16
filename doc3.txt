@@ -1,0 +1,26 @@
+A cognitive computer combines artificial intelligence machine learning algorithms approach attempts reproduce behaviour human brain
+It generally adopts Neuromorphic engineering approach
+An example cognitive computer implemented using neural networks deep learning provided IBM company Watson machine
+A subsequent development IBM TrueNorth microchip architecture designed closer structure human brain von Neumann architecture used conventional computers
+In Intel announced version cognitive chip Loihi available university research labs
+Intel Qualcomm others improving neuromorphic processors steadily Intel Pohoiki Beach Springs systems IBM TrueNorth chip TrueNorth neuromorphic CMOS integrated circuit produced IBM
+It manycore processor network chip design cores one programmable simulated neurons total million neurons
+In turn neuron programmable synapses convey signals
+Hence total number programmable synapses million
+Its basic transistor count billion
+Since memory computation communication handled neurosynaptic cores TrueNorth circumvents von Neumann architecture bottleneck energy efficient IBM claiming power consumption milliwatts power density th conventional microprocessors
+The SyNAPSE chip operates lower temperatures power draws power necessary computation
+Intel Loihi chip Intel self learning neuromorphic chip named Loihi produced perhaps named Hawaiian seamount Loihi offers substantial power efficiency designed human brain
+Intel claims Loihi times energy efficient general purpose computing power needed train neural networks rival Loihi performance
+In theory would support machine learning training inference silicon independently cloud connection efficient using convolutional neural networks CNNs deep learning neural networks
+Intel points system monitoring person heartbeat taking readings events exercise eating using cognitive computing chip normalize data work normal heartbeat
+It spot abnormalities also deal new events conditions
+The first iteration Loihi chip made using Intel nm fabrication process houses clusters artificial neurons total simulated neurons
+This offers around million synapses still rather long way human brain trillion synapses behind IBM TrueNorth around million using cores
+Loihi available research purposes among academic research groups USB form factor
+Recent developments include core chip named Pohoiki Beach
+SpiNNaker SpiNNaker Spiking Neural Network Architecture massively parallel manycore supercomputer architecture designed Advanced Processor Technologies Research Group APT Department Computer Science University Manchester
+Criticism There many approaches definitions cognitive computer approaches may fruitful others Specifically critics argue room sized computer like case Watson viable alternative three pound human brain
+Some also cite difficulty single system bring many elements together disparate sources information well computing resources
+During World Economic Forum experts claimed cognitive systems could adopt biases developers demonstrated case Google image recognition computer vision algorithm identified African Americans unfavorably
+See also AI accelerator Cognitive computing Computational cognition Neuromorphic engineering SyNAPSE Tensor processing unit References Links http www foxnews com tech ces intel gives glimpse mind blowing future computing html

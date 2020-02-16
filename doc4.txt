@@ -1,0 +1,228 @@
+Machine translation sometimes referred abbreviation MT confused computer aided translation machine aided human translation MAHT interactive translation sub field computational linguistics investigates use software translate text speech one language another
+On basic level MT performs simple substitution words one language words another alone usually cannot produce good translation text recognition whole phrases closest counterparts target language needed
+Solving problem corpus statistical neural techniques rapidly growing field leading better translations handling differences linguistic typology translation idioms isolation anomalies Current machine translation software often allows customization domain profession weather reports improving output limiting scope allowable substitutions
+This technique particularly effective domains formal formulaic language used
+It follows machine translation government legal documents readily produces usable output conversation less standardised text
+Improved output quality also achieved human intervention example systems able translate accurately user unambiguously identified words text proper names
+With assistance techniques MT proven useful tool assist human translators limited number cases even produce output used e g weather reports
+The progress potential machine translation debated much history
+Since number scholars questioned possibility achieving fully automatic machine translation high quality first notably Yehoshua Bar Hillel
+Some critics claim principle obstacles automating translation process
+History The origins machine translation traced back work Al Kindi th century Arabic cryptographer developed techniques systemic language translation including cryptanalysis frequency analysis probability statistics used modern machine translation
+The idea machine translation later appeared th century
+In René Descartes proposed universal language equivalent ideas different tongues sharing one symbol The field machine translation founded Warren Weaver Memorandum Translation
+The first researcher field Yehosha Bar Hillel began research MIT
+A Georgetown University MT research team followed public demonstration Georgetown IBM experiment system
+MT research programs popped Japan Russia first MT conference held London
+Researchers continued join field Association Machine Translation Computational Linguistics formed U S National Academy Sciences formed Automatic Language Processing Advisory Committee ALPAC study MT
+Real progress much slower however ALPAC report found ten year long research failed fulfill expectations funding greatly reduced
+According report Director Defense Research Engineering DDR E feasibility large scale MT reestablished success Logos MT system translating military manuals Vietnamese conflict
+The French Textile Institute also used MT translate abstracts French English German Spanish Brigham Young University started project translate Mormon texts automated translation Xerox used SYSTRAN translate technical manuals
+Beginning late computational power increased became less expensive interest shown statistical models machine translation
+MT became popular advent computers
+SYSTRAN first implementation system implemented online service French Postal Service called Minitel
+Various MT companies also launched including Trados first develop market translation memory technology
+The first commercial MT system Russian English German Ukrainian developed Kharkov State University
+MT web started SYSTRAN offering free translation small texts followed AltaVista Babelfish racked requests day
+Franz Josef Och future head Translation Development AT Google DARPA speed MT competition
+More innovations time included MOSES open source statistical MT engine text SMS translation service mobiles Japan mobile phone built speech speech translation functionality English Japanese Chinese
+Recently Google announced Google Translate translates roughly enough text fill million books one day
+The idea using digital computers translation natural languages proposed early A D Booth possibly others
+Warren Weaver wrote important memorandum Translation
+The Georgetown experiment means first application demonstration made APEXC machine Birkbeck College University London rudimentary translation English French
+Several papers topic published time even articles popular journals example article Cleave Zacharov September issue Wireless World
+A similar application also pioneered Birkbeck College time reading composing Braille texts computer
+Translation process The human translation process may described Decoding meaning source text Re encoding meaning target language Behind ostensibly simple procedure lies complex cognitive operation
+To decode meaning source text entirety translator must interpret analyse features text process requires depth knowledge grammar semantics syntax idioms etc source language well culture speakers
+The translator needs depth knowledge encode meaning target language
+Therein lies challenge machine translation program computer understand text person create new text target language sounds written person
+In general application beyond current technology
+Though works much faster automated translation program procedure human participation produce output even close quality human translator produce
+What however provide general though imperfect approximation original text getting gist process called gisting
+This sufficient many purposes including making best use finite expensive time human translator reserved cases total accuracy indispensable
+This problem may approached number ways evolution accuracy improved
+Approaches Machine translation use method based linguistic rules means words translated linguistic way suitable orally speaking words target language replace ones source language It often argued success machine translation requires problem natural language understanding solved first Generally rule based methods parse text usually creating intermediary symbolic representation text target language generated
+According nature intermediary representation approach described interlingual machine translation transfer based machine translation
+These methods require extensive lexicons morphological syntactic semantic information large sets rules
+Given enough data machine translation programs often work well enough native speaker one language get approximate meaning written native speaker
+The difficulty getting enough data right kind support particular method
+For example large multilingual corpus data needed statistical methods work necessary grammar based methods
+But grammar methods need skilled linguist carefully design grammar use
+To translate closely related languages technique referred rule based machine translation may used
+Rule based The rule based machine translation paradigm includes transfer based machine translation interlingual machine translation dictionary based machine translation paradigms
+This type translation used mostly creation dictionaries grammar programs
+Unlike methods RBMT involves information linguistics source target languages using morphological syntactic rules semantic analysis languages
+The basic approach involves linking structure input sentence structure output sentence using parser analyzer source language generator target language transfer lexicon actual translation
+RBMT biggest downfall everything must made explicit orthographical variation erroneous input must made part source language analyser order cope lexical selection rules must written instances ambiguity
+Adapting new domains hard core grammar across domains domain specific adjustment limited lexical selection adjustment
+Transfer based machine translation Transfer based machine translation similar interlingual machine translation creates translation intermediate representation simulates meaning original sentence
+Unlike interlingual MT depends partially language pair involved translation
+Interlingual Interlingual machine translation one instance rule based machine translation approaches
+In approach source language e
+text translated transformed interlingual language e
+language neutral representation independent language
+The target language generated interlingua
+One major advantages system interlingua becomes valuable number target languages turned increases
+However interlingual machine translation system made operational commercial level KANT system Nyberg Mitamura designed translate Caterpillar Technical English CTE languages
+Dictionary based Machine translation use method based dictionary entries means words translated dictionary
+Statistical Statistical machine translation tries generate translations using statistical methods based bilingual text corpora Canadian Hansard corpus English French record Canadian parliament EUROPARL record European Parliament
+Where corpora available good results achieved translating similar texts corpora still rare many language pairs
+The first statistical machine translation software CANDIDE IBM
+Google used SYSTRAN several years switched statistical translation method October
+In Google improved internal translation capabilities using approximately billion words United Nations materials train system translation accuracy improved
+Google Translate similar statistical translation programs work detecting patterns hundreds millions documents previously translated humans making intelligent guesses based findings
+Generally human translated documents available given language likely translation good quality
+Newer approaches Statistical Machine translation METIS II PRESEMT use minimal corpus size instead focus derivation syntactic structure pattern recognition
+With development may allow statistical machine translation operate monolingual text corpus
+SMT biggest downfall includes dependent upon huge amounts parallel texts problems morphology rich languages especially translating languages inability correct singleton errors
+Example based Example based machine translation EBMT approach proposed Makoto Nagao
+Example based machine translation based idea analogy
+In approach corpus used one contains texts already translated
+Given sentence translated sentences corpus selected contain similar sub sentential components
+The similar sentences used translate sub sentential components original sentence target language phrases put together form complete translation
+Hybrid MT Hybrid machine translation HMT leverages strengths statistical rule based translation methodologies
+Several MT organizations claim hybrid approach uses rules statistics
+The approaches differ number ways Rules post processed statistics Translations performed using rules based engine
+Statistics used attempt adjust correct output rules engine
+Statistics guided rules Rules used pre process data attempt better guide statistical engine
+Rules also used post process statistical output perform functions normalization
+This approach lot power flexibility control translating
+It also provides extensive control way content processed pre translation e g
+markup content non translatable terms post translation e g
+post translation corrections adjustments More recently advent Neural MT new version hybrid machine translation emerging combines benefits rules statistical neural machine translation
+The approach allows benefitting pre post processing rule guided workflow well benefitting NMT SMT
+The downside inherent complexity makes approach suitable specific use cases
+One proponents approach complex use cases Omniscien Technologies
+Neural MT A deep learning based approach MT neural machine translation made rapid progress recent years Google announced translation services using technology preference previous statistical methods
+Microsoft team reached human parity WMT historical milestone
+Major issues Disambiguation Word sense disambiguation concerns finding suitable translation word one meaning
+The problem first raised Yehoshua Bar Hillel
+He pointed without universal encyclopedia machine would never able distinguish two meanings word
+Today numerous approaches designed overcome problem
+They approximately divided shallow approaches deep approaches
+Shallow approaches assume knowledge text
+They simply apply statistical methods words surrounding ambiguous word
+Deep approaches presume comprehensive knowledge word
+So far shallow approaches successful Claude Piron long time translator United Nations World Health Organization wrote machine translation best automates easier part translator job harder time consuming part usually involves extensive research resolve ambiguities source text grammatical lexical exigencies target language require resolved Why translator need whole workday translate five pages hour two
+About average text corresponds simple conditions
+But unfortunately
+It part requires six hours work
+There ambiguities one resolve
+For instance author source text Australian physician cited example epidemic declared World War II Japanese prisoner war camp
+Was talking American camp Japanese prisoners Japanese camp American prisoners
+The English two senses
+It necessary therefore research maybe extent phone call Australia The ideal deep approach would require translation software research necessary kind disambiguation would require higher degree AI yet attained
+A shallow approach simply guessed sense ambiguous English phrase Piron mentions based perhaps kind prisoner war camp often mentioned given corpus would reasonable chance guessing wrong fairly often
+A shallow approach involves ask user ambiguity would Piron estimate automate professional translator job leaving harder still done human
+Non standard speech One major pitfalls MT inability translate non standard language accuracy standard language
+Heuristic statistical based MT takes input various sources standard form language
+Rule based translation nature include common non standard usages
+This causes errors translation vernacular source colloquial language
+Limitations translation casual speech present issues use machine translation mobile devices
+Named entities Related named entity recognition information extraction Name entities narrow sense refer concrete abstract entities real world including people organizations companies places etc
+It also refers expressing time space quantity July Named entities occur text analyzed statistical machine translation
+The initial difficulty arises dealing named entities simply identifying text
+Consider list names common particular language illustrate common names different language also constantly changing
+If named entities cannot recognized machine translator may erroneously translated common nouns would likely affect BLEU rating translation would change text human readability
+It also possible identified named entities omitted output translation would also implications text readability message
+Another way deal named entities use transliteration instead translation meaning find letters target language closely correspond name source language
+There attempts incorporate machine translation adding transliteration step translation procedure
+However attempts still problems even cited worsening quality translation
+Named entities still identified incorrectly words transliterated transliterated
+For example Southern California first word translated directly second word transliterated
+However machines would often transliterate treated one entity
+Words like hard machine translators even transliteration component process
+The lack attention issue named entity translation recognized potentially stemming lack resources devote task addition complexity creating good system named entity translation
+One approach named entity translation transliterate translate words
+A second create translate list end goal transliteration opposed translation
+Both approaches still rely correct identification named entities however
+A third approach successful named entity translation class based model
+In method named entities replaced token represent class belong
+For example Ted Erica would replaced person class token
+In way statistical distribution use person names general analyzed instead looking distributions Ted Erica individually
+A problem class based model solves probability given name specific language affect assigned probability translation
+A study Stanford improving area translation gives examples different probabilities assigned David going walk Ankit going walk English target language due different number occurrences name training data
+A frustrating outcome study Stanford attempts improve named recognition translation many times decrease BLEU scores translation result inclusion methods named entity translation
+Translation multiparallel sources Some work done utilization multiparallel corpora body text translated languages
+Using methods text translated languages may utilized combination provide accurate translation third language compared one source languages used alone
+Ontologies MT An ontology formal representation knowledge includes concepts objects processes etc
+domain relations
+If stored information linguistic nature one speak lexicon
+In NLP ontologies used source knowledge machine translation systems
+With access large knowledge base systems enabled resolve many especially lexical ambiguities
+In following classic examples humans able interpret prepositional phrase according context use world knowledge stored lexicons I saw man star molecule microscope telescope binoculars
+A machine translation system initially would able differentiate meanings syntax change
+With large enough ontology source knowledge however possible interpretations ambiguous words specific context reduced
+Other areas usage ontologies within NLP include information retrieval information extraction text summarization
+Building ontologies The ontology generated PANGLOSS knowledge based machine translation system may serve example ontology NLP purposes compiled A large scale ontology necessary help parsing active modules machine translation system
+In PANGLOSS example nodes intended subsumed smaller manually built upper abstract region ontology
+Because size created automatically
+The goal merge two resources LDOCE online WordNet combine benefits concise definitions Longman semantic relations allowing semi automatic taxonomization ontology WordNet
+A definition match algorithm created automatically merge correct meanings ambiguous words two online resources based words definitions meanings common LDOCE WordNet
+Using similarity matrix algorithm delivered matches meanings including confidence factor
+This algorithm alone however match meanings correctly
+A second hierarchy match algorithm therefore created uses taxonomic hierarchies found WordNet deep hierarchies partially LDOCE flat hierarchies
+This works first matching unambiguous meanings limiting search space respective ancestors descendants matched meanings
+Thus algorithm matched locally unambiguous meanings instance word seal ambiguous one meaning seal animal subhierarchy
+Both algorithms complemented helped constructing large scale ontology machine translation system
+The WordNet hierarchies coupled matching definitions LDOCE subordinated ontology upper region
+As result PANGLOSS MT system able make use knowledge base mainly generation element
+Applications While system provides holy grail fully automatic high quality machine translation unrestricted text many fully automated systems produce reasonable output
+The quality machine translation substantially improved domain restricted controlled Despite inherent limitations MT programs used around world
+Probably largest institutional user European Commission
+The MOLTO project example coordinated University Gothenburg received million euros project support EU create reliable translation tool covers majority EU languages
+The development MT systems comes time budget cuts human translation may increase EU dependency reliable MT programs
+The European Commission contributed million euros via ISA programme creation MT EC statistical machine translation program tailored administrative needs EU replace previous rule based machine translation system In Google claimed promising results obtained using proprietary statistical machine translation engine
+The statistical translation engine used Google language tools Arabic English Chinese English overall score runner IBM BLEU score Summer tests conducted National Institute Standards Technology With recent focus terrorism military sources United States investing significant amounts money natural language engineering
+In Q Tel venture capital fund largely funded US Intelligence Community stimulate new technologies private sector entrepreneurs brought companies like Language Weaver
+Currently military community interested translation processing languages like Arabic Pashto Dari
+Within languages focus key phrases quick communication military members civilians use mobile phone apps
+The Information Processing Technology Office DARPA hosts programs like TIDES Babylon translator
+US Air Force awarded million contract develop language translation technology The notable rise social networking web recent years created yet another niche application machine translation software utilities Facebook instant messaging clients Skype GoogleTalk MSN Messenger etc
+allowing users speaking different languages communicate
+Machine translation applications also released mobile devices including mobile telephones pocket PCs PDAs etc
+Due portability instruments come designated mobile translation tools enabling mobile business networking partners speaking different languages facilitating foreign language learning unaccompanied traveling foreign countries without need intermediation human translator
+Despite labelled unworthy competitor human translation Automated Language Processing Advisory Committee put together United States government quality machine translation improved levels application online collaboration medical field investigated
+The application technology medical settings human translators absent another topic research difficulties arise due importance accurate translations medical diagnoses
+Evaluation There many factors affect machine translation systems evaluated
+These factors include intended use translation nature machine translation software nature translation process
+Different programs may work well different purposes
+For example statistical machine translation SMT typically outperforms example based machine translation EBMT researchers found evaluating English French translation EBMT performs better
+The concept applies technical documents easily translated SMT formal language
+In certain applications however e g product descriptions written controlled language dictionary based machine translation system produced satisfactory translations require human intervention save quality inspection There various means evaluating output quality machine translation systems
+The oldest use human judges assess translation quality
+Even though human evaluation time consuming still reliable method compare different systems rule based statistical systems
+Automated means evaluation include BLEU NIST METEOR LEPOR Relying exclusively unedited machine translation ignores fact communication human language context embedded takes person comprehend context original text reasonable degree probability
+It certainly true even purely human generated translations prone error
+Therefore ensure machine generated translation useful human publishable quality translation achieved translations must reviewed edited human
+The late Claude Piron wrote machine translation best automates easier part translator job harder time consuming part usually involves extensive research resolve ambiguities source text grammatical lexical exigencies target language require resolved
+Such research necessary prelude pre editing necessary order provide input machine translation software output meaningless In addition disambiguation problems decreased accuracy occur due varying levels training data machine translating programs
+Both example based statistical machine translation rely vast array real example sentences base translation many sentences analyzed accuracy jeopardized
+Researchers found program trained sentence pairings accuracy actually decreases
+The optimal level training data seems sentences possibly training data increases number possible sentences increases making harder find exact translation match
+Using machine translation teaching tool Although concerns machine translation accuracy Dr Ana Nino University Manchester researched advantages utilizing machine translation classroom
+One pedagogical method called using MT Bad Model
+MT Bad Model forces language learner identify inconsistencies incorrect aspects translation turn individual hopefully possess better grasp language
+Dr Nino cites teaching tool implemented late
+At end various semesters Dr Nino able obtain survey results students used MT Bad Model well models
+Overwhelmingly students felt observed improved comprehension lexical retrieval increased confidence target language
+Machine translation signed languages In early options machine translation spoken signed languages severely limited
+It common belief deaf individuals could use traditional translators
+However stress intonation pitch timing conveyed much differently spoken languages compared signed languages
+Therefore deaf individual may misinterpret become confused meaning written text based spoken language Researchers Zhao et al
+developed prototype called TEAM translation English ASL machine completed English American Sign Language ASL translations
+The program would first analyze syntactic grammatical morphological aspects English text
+Following step program accessed sign synthesizer acted dictionary ASL
+This synthesizer housed process one must follow complete ASL signs well meanings signs
+Once entire text analyzed signs necessary complete translation located synthesizer computer generated human appeared would use ASL sign English text user
+Copyright Only works original subject copyright protection scholars claim machine translation results entitled copyright protection MT involve creativity
+The copyright issue derivative work author original work original language lose rights work translated translator must permission publish translation
+See also Notes Further reading Cohen J M Translation Encyclopedia Americana pp
+Hutchins W John Somers Harold L
+An Introduction Machine Translation
+London Academic Press
+ISBN X
+Lewis Kraus Gideon Tower Babble New York Times Magazine June pp
+
+External links The Advantages Disadvantages Machine Translation Why Google never replace translation agency International Association Machine Translation IAMT Machine Translation Archive John Hutchins
+An electronic repository bibliography articles books papers field machine translation computer based translation technology Machine translation computer based translation Publications John Hutchins includes PDFs several books machine translation Machine Translation Minority Languages John Hutchins

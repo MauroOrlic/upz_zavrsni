@@ -1,0 +1,11 @@
+Monitoring surveillance agents also known predictive agents type intelligent agent software observes reports computer equipment
+Monitoring surveillance agents often used monitor complex computer networks predict crash defect may occur
+Another type monitoring surveillance agent works computer networks keeping track configuration computer connected network
+It tracks updates central configuration database anything computer changes number type disk drives
+An important task managing networks lies prioritizing traffic shaping bandwidth
+Examples NASA Jet Propulsion Laboratory agent monitors inventory planning scheduling equipment ordering keep costs
+Allstate Insurance network thousands computers
+The company uses network monitoring agent Computer Associates International called Neugent watches huge networks hours day
+Every five seconds agent measures data points predict system crash minutes happens Haag Cummings McCubbrey Pinsonneault Donovan
+Management Information Systems Third Canadian Ed
+McGraw Hill Ryerson See also Software agent Cfengine Nagios PIKT Ganglia opensource distributed monitoring system HPC clusters grids

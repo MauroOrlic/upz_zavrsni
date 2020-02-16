@@ -1,0 +1,517 @@
+2020-02-16 20:14:36.573 INFO main: Setting up training pages...
+2020-02-16 20:14:36.573 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Artificial intelligence&cmlimit=500
+2020-02-16 20:14:36.978 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Affective computing&cmlimit=500
+2020-02-16 20:14:37.137 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Social robots&cmlimit=500
+2020-02-16 20:14:37.299 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:AI accelerators&cmlimit=500
+2020-02-16 20:14:37.467 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Artificial intelligence applications&cmlimit=500
+2020-02-16 20:14:37.647 INFO main: Setting up testing pages...
+2020-02-16 20:14:37.647 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Beekeeping&cmlimit=500
+2020-02-16 20:14:37.979 INFO main: Writing train corpus...
+2020-02-16 20:14:37.980 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Document processing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:38.186 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scilab Image Processing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:38.406 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neuromorphic engineering&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:38.825 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Incremental heuristic search&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:39.024 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Frame language&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:39.496 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=GNOME Chess&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:39.782 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=DialogOS&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:39.950 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Intelligent decision support system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:40.156 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mind–body problem&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:40.736 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=PaPeRo&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:40.934 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Outline of artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:41.567 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=March of the Machines&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:41.794 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Google Springboard&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:41.968 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Quantum artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:42.135 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Stochastic semantic analysis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:42.336 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Shyster (expert system)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:42.630 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pop music automation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:42.866 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=FatKat (investment software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:43.058 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Language/action perspective&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:43.284 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automated machine learning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:43.496 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automated Mathematician&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:43.734 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Self-management (computer science)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:43.931 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xiao-i&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:44.167 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AI Companies of India&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:44.325 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=GENESIS (software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:44.575 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mobile translation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:44.874 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Babelfy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:45.056 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ML.NET&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:45.316 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Symbolic artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:45.532 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=CALO&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:45.857 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automatic image annotation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:46.156 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Multimodal sentiment analysis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:46.422 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kobian&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:46.610 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hindsight optimization&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:46.778 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Percept (artificial intelligence)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:46.975 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neural computation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:47.199 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Smart object&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:47.537 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Music and artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:47.773 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Joe Robot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:47.991 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=List of artificial intelligence projects&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:48.312 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Paro (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:48.522 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Intelligent database&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:48.737 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Darwin machine&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:48.975 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=DragonLord Enterprises, Inc.&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:49.171 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mycroft (software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:49.416 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Situated&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:49.598 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge compilation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:49.785 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cobot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:50.071 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Histogram of oriented displacements&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:50.269 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rule-based system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:50.468 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence systems integration&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:50.811 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computer audition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:51.096 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AlphaZero&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:51.408 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Optical braille recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:51.606 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Darkforest&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:51.910 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Competitions and prizes in artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:52.211 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dialogflow&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:52.416 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intuition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:52.660 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drive.ai&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:52.887 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ML Fairness&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:53.073 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=DAYDREAMER&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:53.336 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Extremal optimization&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:53.659 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lifelong Planning A*&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:54.017 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Energy based model&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:54.228 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=INDECT&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:54.446 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Affectiva&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:54.650 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Optical mark recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:55.280 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Activity recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:55.825 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Brain technology&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:55.991 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Orange (software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:56.232 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Autonomic networking&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:56.704 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Melomics109&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:56.875 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=BERT (language model)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:57.070 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Probabilistic logic network&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:57.341 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ICarbonX&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:57.515 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=OpenIRIS&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:57.779 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computational humor&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:58.034 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Belief–desire–intention model&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:58.235 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neural modeling fields&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:58.794 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Karen Myers&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:59.000 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vaumpus world&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:59.167 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neural network&explaintext=1&exsectionformat=wiki
+2020-02-16 20:14:59.732 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Optical character recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:00.148 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Google Neural Machine Translation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:00.369 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Optical answer sheet&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:00.886 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Behavior tree (artificial intelligence, robotics and control)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:01.252 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artisto&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:01.450 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Color moments&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:01.870 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Conversable&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:02.050 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mohamed bin Zayed University of Artificial Intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:02.230 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=SPSS Modeler&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:02.501 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=MNIST database&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:02.730 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Winner-take-all in action selection&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:02.952 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grandmaster Chess&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:03.139 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epistemic modal logic&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:03.675 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neuromorphic engineering&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:04.053 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Recursive neural network&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:04.249 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Concurrent MetateM&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:04.504 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Eccky&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:04.783 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trenchard More&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:04.957 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Schema-agnostic databases&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:05.226 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computer vision&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:05.942 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automated personal assistant&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:06.123 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AI Superpowers&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:06.374 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ESTAR project&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:06.574 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=OpenNN&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:06.764 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence industry in China&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:06.983 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=MVision&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:07.151 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Halite AI Programming Competition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:07.342 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Brighterion&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:07.532 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Recurrent neural network&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:08.078 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Discovery system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:08.286 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Collective intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:09.351 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence in government&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:09.611 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=IJCAI Computers and Thought Award&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:09.840 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=GestureTek&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:10.048 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=DeepDream&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:10.278 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Singleton (global governance)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:10.558 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cognitive infocommunications&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:10.772 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ensemble averaging (machine learning)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:11.010 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buffalo Automation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:11.221 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence, situated approach&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:11.519 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Information space analysis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:11.714 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chess as mental training&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:11.919 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Deepfake&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:12.429 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Admissible heuristic&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:12.681 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Personoid&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:12.922 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Semantic decomposition (natural language processing)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:13.156 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=OpenAIR&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:13.352 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kismet (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:13.577 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Glossary of artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:15.552 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:17.548 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mii&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:18.117 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Distributed artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:18.434 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Syman&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:18.601 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=NTU RGB-D dataset&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:18.834 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Media Lab Europe's social robots&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:19.091 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chinese speech synthesis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:19.365 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=IP camera&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:19.690 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Clone Algo Inc&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:19.884 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=List of artificial intelligence projects&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:20.150 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mobileye&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:20.463 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Industrial artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:20.752 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AForge.NET&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:20.974 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computational intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:21.265 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ADS-AC&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:21.441 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Manav (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:21.648 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dr. Sbaitso&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:21.876 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=CIFAR-10&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:22.100 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Resistance Database Initiative&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:22.465 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=International Conference on Autonomous Agents and Multiagent Systems&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:22.660 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cloud robotics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:23.108 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AIVA&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:23.285 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Moral Machine&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:23.484 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fake nude photography&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:23.711 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Behavior selection algorithm&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:23.892 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Eurisko&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:24.156 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=BINA48&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:24.472 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bio-inspired computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:24.918 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=OpenSMILE&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:25.127 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=New Lab&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:25.371 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luminoso&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:25.591 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Operation Serenata de Amor&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:25.858 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Connectionist expert system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:26.041 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Reasoning system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:26.464 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Contextual image classification&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:26.763 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cleverbot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:26.968 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Peak (company)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:27.146 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Maria L. Gini&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:27.416 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Qordoba&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:27.611 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial Intelligence System&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:27.812 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netomi&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:28.013 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computer-assisted proof&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:28.272 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Evergage&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:28.457 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automatic number-plate recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:29.465 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AI accelerator&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:29.711 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Model-based reasoning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:29.916 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=1 the Road&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:30.142 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tico Robot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:30.396 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pedagogical agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:30.704 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argumentation framework&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:31.241 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=CloudSight&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:31.427 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Voice computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:31.668 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vectra AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:31.925 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Question answering&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:32.258 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial general intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:32.955 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Leonardo (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:33.250 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hybrid intelligent system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:33.452 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial empathy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:33.657 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mind&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:34.304 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ICAD (software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:34.579 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge level&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:34.765 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Plug & Pray&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:34.967 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Virtual intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:35.260 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Musio&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:35.458 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Agent systems reference model&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:35.734 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Wetware (brain)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:35.993 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Wojciech Zaremba&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:36.214 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zeuthen strategy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:36.502 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=POP-11&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:36.747 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Autonomous agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:36.962 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AirSim&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:37.171 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Deepfake pornography&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:37.417 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Right to explanation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:37.673 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gödel machine&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:37.940 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Distributional–relational database&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:38.165 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emospark&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:38.392 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neurorobotics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:38.732 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=20Q&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:38.942 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Toyota Partner Robot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:39.109 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Allen (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:39.351 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=KL-ONE&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:39.537 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriented energy filters&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:39.765 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=EuResist&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:40.141 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rough fuzzy hybridization&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:40.306 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Handwriting recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:40.672 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kuwahara filter&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:41.062 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=SpiNNaker&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:41.233 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sophia (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:41.511 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Deductive classifier&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:41.775 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Edmond de Belamy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:41.976 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Omar Al Olama&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:42.292 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Associative classifier&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:42.513 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pattern theory&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:43.081 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fuzzy logic&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:43.742 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Noisy text analytics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:43.972 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pommerman Challenge&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:44.158 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Data pack&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:44.351 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Synthetic Environment for Analysis and Simulations&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:44.622 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=S Voice&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:44.840 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Appen (company)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:45.088 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computational human modeling&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:45.286 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tensor processing unit&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:45.584 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nvidia DGX&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:45.764 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Problem solving&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:46.633 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Frame problem&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:47.206 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Inductive programming&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:47.480 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dynamic epistemic logic&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:48.491 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Perceptual computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:48.799 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pony.ai&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:48.984 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polarr&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:49.215 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial consciousness&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:49.911 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Language identification&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:50.181 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence in Wikimedia projects&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:50.377 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence marketing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:50.567 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Attributional calculus&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:50.793 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Outlier.ai&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:50.991 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spreading activation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:51.273 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Information extraction&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:51.593 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Explainable artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:51.868 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Quack.com&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:52.072 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Social robot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:52.335 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=EMIEW&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:52.514 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial wisdom&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:52.693 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automated reasoning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:52.948 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial psychology&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:53.193 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=K-line (artificial intelligence)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:53.383 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=MANIC (cognitive architecture)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:53.593 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Qloo&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:53.849 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argument technology&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:54.074 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Combs method&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:54.287 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Legal expert system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:54.640 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence arms race&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:55.060 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Progress in artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:55.371 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emotion recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:55.700 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=A.I. Artificial Intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:56.252 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Angel F&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:56.541 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mivar-based approach&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:57.000 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=BabelNet&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:57.244 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Diagnosis (artificial intelligence)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:57.501 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Leverhulme Centre for the Future of Intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:57.668 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Intelligent word recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:57.873 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ETAP-3&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:58.064 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Big mechanism&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:58.262 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AISoy1&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:58.508 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial imagination&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:58.921 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Operational artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:59.105 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Deep reinforcement learning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:59.300 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Algorithmic entities&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:59.486 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=WordDive&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:59.675 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natural-language user interface&explaintext=1&exsectionformat=wiki
+2020-02-16 20:15:59.980 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Project Debater&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:00.165 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alesis Artificial Intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:00.376 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thompson sampling&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:00.786 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AI mayor&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:01.509 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Element AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:01.699 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=LIDA (cognitive architecture)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:01.936 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accord.NET&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:02.149 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge-based systems&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:02.447 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Conflict resolution strategy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:02.635 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=MUSA (MUltichannel Speaking Automaton)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:02.816 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Embodied cognitive science&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:03.301 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Embodied agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:03.548 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Evolving intelligent system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:03.794 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=OpenCog&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:04.049 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ontology engineering&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:04.317 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Software agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:04.823 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automated negotiation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:05.016 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence in healthcare&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:05.595 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Winograd Schema Challenge&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:05.893 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natural-language understanding&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:06.175 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Roborace&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:06.410 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cognitive robotics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:06.676 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Learning curve (machine learning)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:06.853 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Action selection&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:07.366 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Braina&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:07.544 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Autognostics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:07.780 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gabbay's separation theorem&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:07.947 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=BabyX&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:08.126 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Australian Artificial Intelligence Institute&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:08.393 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Backward chaining&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:08.656 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Content-based image retrieval&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:09.113 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=PINO&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:09.345 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neural architecture search&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:09.620 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computational creativity&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:10.398 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Algorithmic probability&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:10.904 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Instrumental convergence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:11.189 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Interactions Corporation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:11.380 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Google Clips&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:11.550 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Clinical decision support system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:12.127 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=OpenAI Five&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:12.388 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Autonomic computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:12.717 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=3D reconstruction from multiple images&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:13.099 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fred (chatterbot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:13.273 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Evolutionary developmental robotics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:13.470 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nexus Studios&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:13.683 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Principle of rationality&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:13.896 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Open Letter on Artificial Intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:14.139 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cognitive computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:14.395 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Machine translation software usability&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:14.630 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Description logic&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:15.130 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Language Acquisition Device (computer)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:15.307 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Affective computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:15.938 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AI-complete&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:16.190 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kasparov's Gambit&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:16.461 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=List of datasets for machine-learning research&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:16.654 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rational agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:16.880 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Embryo Ranking Intelligent Classification Algorithm&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:17.074 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Susan Schneider&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:17.333 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=0music&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:17.508 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=List of programming languages for artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:17.775 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Catastrophic interference&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:18.426 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zeroth (software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:18.614 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Niki.ai&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:18.823 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=CloudSight&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:19.068 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Content intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:19.265 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Expert system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:19.933 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neuro-fuzzy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:20.188 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ASR-complete&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:20.371 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge Based Software Assistant&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:20.703 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cognitive tutor&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:21.046 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Machine perception&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:21.277 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Conversica&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:21.499 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intuition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:21.745 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Digital empathy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:21.996 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence for video surveillance&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:22.509 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fast-and-frugal trees&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:22.826 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tsetlin machine&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:23.004 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AlphaGo&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:23.597 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Marketing and artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:23.953 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AlterEgo&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:24.139 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Context-sensitive user interface&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:24.434 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=GenI process&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:25.006 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=User behavior analytics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:25.224 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Open information extraction&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:25.471 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sentiment analysis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:25.896 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=And–or tree&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:26.125 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anytime algorithm&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:26.400 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Human Problem Solving&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:26.568 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fuzzy agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:26.735 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Eloquens (software)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:26.971 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Batch normalization&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:27.863 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial empathy&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:28.088 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anthropos (robot)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:28.299 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=The Leaf (AI) Project&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:28.504 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ontology learning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:28.756 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cognitive philology&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:28.944 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cerebellar model articulation controller&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:29.196 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uncanny valley&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:29.859 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AZFinText&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:30.108 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kizuna AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:30.500 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Loebner Prize&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:30.838 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psychology of reasoning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:31.158 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Radiant AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:31.352 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Web intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:31.553 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Transhumanism&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:32.617 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aurora (novel)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:32.857 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Language creation in artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:33.071 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Voice Mate&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:33.237 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Concept mining&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:33.457 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Generalized distributive law&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:34.372 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Jonnie Penn&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:34.591 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AgentSheets&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:34.908 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Akinator&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:35.172 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial imagination&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:35.414 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Quick, Draw!&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:35.601 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Type-2 fuzzy sets and systems&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:36.038 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neuton (network)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:36.230 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=User illusion&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:36.433 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AlphaGo Zero&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:36.707 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Enterprise cognitive system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:36.942 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natural language processing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:37.450 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Moravec's paradox&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:37.711 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Blackboard system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:37.983 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Means-ends analysis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:38.207 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=PCVC Speech Dataset&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:38.406 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=SNePS&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:38.717 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Google AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:39.312 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emotion Markup Language&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:39.613 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=UiPath&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:39.814 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Document capture software&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:40.061 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bayesian programming&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:40.992 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nadine Social Robot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:41.298 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Any-angle path planning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:41.549 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Differentiable neural computer&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:41.761 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chatterbox Challenge&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:42.238 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge-based recommender system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:42.442 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AGI (computer science)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:43.135 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Behavior informatics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:43.319 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial Solutions&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:43.532 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ordered weighted averaging aggregation operator&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:43.931 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Decision list&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:44.108 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Template:Artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:44.271 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Google&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:45.225 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Weak AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:45.489 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierarchical control system&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:45.750 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ACROSS Project&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:45.925 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Applications of artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:46.666 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Game theory&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:47.862 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence in heavy industry&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:48.176 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=NewsRx&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:48.450 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Commonsense reasoning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:48.954 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Outline of machine learning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:49.527 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=SpiNNaker&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:49.700 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=KAoS&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:49.867 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Symbol level&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:50.061 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cog (project)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:50.308 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Intelligent control&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:50.531 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial brain&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:50.808 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Intelligent character recognition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:51.010 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computer Arimaa&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:51.404 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hybrid neural network&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:51.577 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neural network software&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:51.851 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Informatics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:52.363 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Deep learning&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:53.312 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=DoNotPay&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:53.558 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=SUPS&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:53.781 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Network compartment&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:53.972 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Type-1 OWA operators&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:54.411 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Robot lawyer&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:54.590 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Automated journalism&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:54.918 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Smartlogic&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:55.100 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=ASI (computer science)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:55.467 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neural machine translation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:55.679 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emily Howell&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:55.859 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polyworld&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:56.079 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge-based configuration&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:56.367 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anticipation (artificial intelligence)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:56.555 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Colloquis&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:56.742 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Knowledge acquisition&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:56.972 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Intelligent agent&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:57.324 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vision processing unit&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:57.549 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Seeing AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:57.740 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Conference on Semantics in Healthcare and Life Sciences&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:57.956 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=The Fable of Oscar&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:58.199 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nvidia Drive&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:58.423 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Manifold alignment&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:58.680 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trenchard More&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:58.857 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grammar systems theory&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:59.096 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Non-human&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:59.309 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=QRIO&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:59.553 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lawbot&explaintext=1&exsectionformat=wiki
+2020-02-16 20:16:59.809 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Artificial intelligence art&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:00.032 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=BenevolentAI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:00.286 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cobweb (clustering)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:00.522 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dartmouth workshop&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:00.776 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Applications of artificial intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:01.443 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Language Acquisition Device (computer)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:01.610 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fog robotics&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:01.804 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Committee machine&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:02.001 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Movidius Myriad 2&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:02.267 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=VaultML&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:02.437 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mindpixel&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:02.660 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Document mosaicing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:03.057 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mind's Eye (US military)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:03.244 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Computational heuristic intelligence&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:03.470 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Project Joshua Blue&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:03.685 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Commonsense knowledge (artificial intelligence)&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:03.922 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Multi-Agent Programming Contest&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:04.147 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Structure mapping engine&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:04.681 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=AIVA&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:04.926 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Maluuba&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:05.131 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=GOLOG&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:05.332 INFO main: Writing test corpuses...
+2020-02-16 20:17:05.332 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Personality computing&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:05.553 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=DEARhealth&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:05.722 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cognitive computer&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:05.991 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Machine translation&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:06.776 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Qloo&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:06.996 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nouvelle AI&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:07.259 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Monitoring and surveillance agents&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:07.443 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Beekeeping&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:08.912 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Glossary of beekeeping&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:09.133 INFO __init__: Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=June Gap&explaintext=1&exsectionformat=wiki
+2020-02-16 20:17:09.360 INFO main: Loading model...
+2020-02-16 20:17:14.413 INFO main: Calculating similarity...
+2020-02-16 20:17:14.450 INFO main: Writing results to workbook...
+2020-02-16 20:17:14.455 INFO main: Done!
